@@ -1,0 +1,14 @@
+{
+  "name": "tree-sitter-highlight-schema",
+  "description": "JSON schema for highlighting properties used in Tree-sitter parsers",
+  "keywords": [
+    "json-schema",
+    "parser",
+    "parsing",
+    "schema",
+    "syntax-highlighting",
+    "syntax",
+    "tree-sitter"
+  ],
+  "main": "schema.json"
+}
