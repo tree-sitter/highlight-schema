@@ -11,5 +11,5 @@
     "syntax",
     "tree-sitter"
   ],
-  "main": "schema.json"
+  "main": "./schema"
 }
