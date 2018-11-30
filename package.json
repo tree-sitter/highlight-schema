@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-highlight-schema",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSON schema for highlighting properties used in Tree-sitter parsers",
   "keywords": [
     "json-schema",
