@@ -3,6 +3,10 @@ module.exports =
   "scope": {
     "type": "string",
     "enum": [
+      // names of attributes (e.g. `class` in `<div class=something>`)
+      "attribute",
+
+      // comments (e.g. this line of this file)
       "comment",
 
       // names of constant values (e.g. `MAX_LENGTH`)
@@ -29,10 +33,14 @@ module.exports =
       // names of built-in functions
       "function.builtin",
 
+      // keywords with special meaning (e.g. `if`, `class`)
       "keyword",
 
-      // numbers
+      // numbers (e.g. `123`, `0xA0FFD1`)
       "number",
+
+      // Operators (e.g. `+`, `===`)
+      "operator",
 
       // names of properties (e.g. `age` in `person.age`)
       "property",
@@ -42,8 +50,8 @@ module.exports =
 
       // punctuation characters
       "punctuation",
-
-      // punctuation characters with extra emphasis
+      "punctuation.bracket",
+      "punctuation.delimiter",
       "punctuation.special",
 
       // string literals
@@ -51,6 +59,9 @@ module.exports =
 
       // string-like literals (e.g. regexes, symbols)
       "string.special",
+
+      // names of tags (e.g. `div` in `<div></div>`)
+      "tag",
 
       // names of types
       "type",
