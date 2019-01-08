@@ -75,5 +75,18 @@ module.exports =
       // names of built-in variables (e.g. `this`, `self`, `__dirname`)
       "variable.builtin"
     ]
+  },
+  "injection-language": {
+    "oneOf": [
+      {
+        "type": "string"
+      },
+      {
+        "type": "object"
+      }
+    ]
+  },
+  "injection-content": {
+    "type": "object"
   }
 }
