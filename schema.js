@@ -76,6 +76,9 @@ module.exports =
       "variable.builtin"
     ]
   },
+  "is-definition": {
+    "type": "string"
+  },
   "injection-language": {
     "oneOf": [
       {
